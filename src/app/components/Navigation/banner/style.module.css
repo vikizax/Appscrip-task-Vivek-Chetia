@@ -1,0 +1,13 @@
+.banner {
+    display: flex;
+    justify-content: space-around;
+    background-color: #000000;
+    color: #EB4C6B;
+    padding: 8px 0;
+}
+
+.img_text {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

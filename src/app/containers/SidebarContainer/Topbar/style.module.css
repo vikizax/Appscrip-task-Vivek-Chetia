@@ -1,0 +1,42 @@
+.topbar_container {
+    display: flex;
+    border-top: 1px solid #E5E5E5;
+    border-bottom: 1px solid #E5E5E5;
+    padding: 20px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topbar_left {
+    display: flex;
+    gap: 60px;
+}
+
+.topbar_left button {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 0;
+    margin: 0;
+    border: none;
+    background-color: unset;
+    text-decoration: underline;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0px;
+    text-align: right;
+    color: #888792;
+}
+
+
+.topbar_right {}
+
+.topbar_item_count {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0px;
+    text-align: left;
+    text-transform: uppercase;
+}

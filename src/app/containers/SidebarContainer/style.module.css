@@ -1,0 +1,16 @@
+.sidebar_container {
+    padding: 0 96px;
+}
+
+.sidebar_content {
+    display: flex;
+    padding: 20px 0;
+}
+
+.sidebar_content .left {
+    width: 264px;
+}
+
+.sidebar_content .right {
+    flex: 1;
+}

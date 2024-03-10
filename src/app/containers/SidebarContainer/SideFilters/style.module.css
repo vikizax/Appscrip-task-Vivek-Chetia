@@ -1,0 +1,10 @@
+.sidefilters {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.padded_b_border_container {
+    padding-bottom: 24px;
+    border-bottom: 1px solid #E5E5E5;
+}

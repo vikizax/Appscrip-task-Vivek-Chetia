@@ -1,0 +1,41 @@
+.filter_accord_container {
+    display: flex;
+    flex-direction: column;
+}
+
+.summary {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.summary::marker {
+    content: '';
+}
+
+.summary span:first-child {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+}
+
+.right {
+    display: flex;
+    align-items: start;
+    transition: transform 0.2s ease-out;
+}
+
+details[open] .right{
+    transform: rotate(180deg);
+    align-items: end;
+}

@@ -1,0 +1,19 @@
+.select {
+    outline: none;
+    border: none;
+    background-color: unset;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 1px;
+    text-align: left;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    background: url('../../assets/down-arrow.svg');
+    background-repeat: no-repeat;
+    padding-right: 18px;
+    background-position: right 0px;
+    pointer-events: none;
+}
