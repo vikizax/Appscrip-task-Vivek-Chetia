@@ -27,15 +27,31 @@
 .left {
     display: flex;
     flex-direction: column;
+    gap: 8px;
 }
+
 
 .right {
     display: flex;
-    align-items: start;
+    align-items: flex-start;
     transition: transform 0.2s ease-out;
 }
 
 details[open] .right{
     transform: rotate(180deg);
     align-items: end;
+}
+
+.unselect_all_btn {
+    margin-top: 22px;
+    margin-bottom: 12px;
+    background-color: unset;
+    border: unset;
+    text-decoration: underline;
+    color: #888792;
+    font-size: 14px;
+}
+
+.filter_accord_container input[type='checkbox'] {
+    margin: 10px 0px;
 }

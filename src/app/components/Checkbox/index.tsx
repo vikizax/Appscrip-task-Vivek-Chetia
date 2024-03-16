@@ -8,7 +8,6 @@ interface Props {
 }
 
 const Checkbox = ({ name, value, mutted }: Props) => {
-    console.log({ mutted })
     const id = useId();
     return <>
         <div className={styles.checkbox}>

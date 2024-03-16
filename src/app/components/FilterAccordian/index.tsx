@@ -20,12 +20,15 @@ const FilterAccordian = ({ title, filters }: Props) => {
                 <summary className={styles.summary}>
                     <div className={styles.left}>
                         <span>{title}</span>
-                        <span>ALL</span>
+                        <span>All</span>
                     </div>
                     <div className={styles.right}>
                         <Image src={DownArrow} alt='accordian-down-arrow'/>
                     </div>
                 </summary>
+
+                <button className={styles.unselect_all_btn}>Unselect All</button>
+
                 {
                     filters.map(params => <Checkbox {...params} mutted />)
                 }
